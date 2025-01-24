@@ -1,6 +1,5 @@
 import re
 
-
 phoneNumber_Regex = re.compile(r'(\d{3})(-)?(\d{3})(-)?(\d{4})')
 mo = phoneNumber_Regex.search(input('Enter a phone number: '))
 
