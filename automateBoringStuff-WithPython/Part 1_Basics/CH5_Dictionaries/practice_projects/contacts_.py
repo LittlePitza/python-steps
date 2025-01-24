@@ -32,7 +32,8 @@ def delete_contact(name):
 
 def main():
     while True:
-        print('Contact Support number: ' + contacts[ 'Support'][ 'phone'])
+        print(('Contact Support'
+               ' number: ') + contacts[ 'Support'][ 'phone'])
         print('1. Add contact')
         print('2. Search contact')
         print('3. Show all contacts')
